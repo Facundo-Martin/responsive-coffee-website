@@ -157,18 +157,18 @@
             Choose from our most delicious and best produts
           </h2>
 
-          <ul class="product__filters">
-            <li class="products__item products__line">
+          <ul class="products__filters">
+            <li class="products__item products__line" data-filter=".delicacies">
               <h3 class="products__title">New Delicacies</h3>
               <span class="products__stock">3 products</span>
             </li>
 
-            <li class="products__item products__line">
+            <li class="products__item products__line" data-filter=".coffee">
               <h3 class="products__title">Hot Coffee</h3>
               <span class="products__stock">4 products</span>
             </li>
 
-            <li class="products__item products__line">
+            <li class="products__item" data-filter=".cake">
               <h3 class="products__title">Cakes and Pastries</h3>
               <span class="products__stock">4 products</span>
             </li>
@@ -176,7 +176,7 @@
 
           <div class="products__content grid">
             <!--================= Delicacies ===================-->
-            <article class="products__card">
+            <article class="products__card delicacies">
               <div class="products__shape">
                 <img
                   src="assets/img/delicacies1.png"
@@ -195,7 +195,7 @@
               </div>
             </article>
 
-            <article class="products__card">
+            <article class="products__card delicacies">
               <div class="products__shape">
                 <img
                   src="assets/img/delicacies2.png"
@@ -214,7 +214,7 @@
               </div>
             </article>
 
-            <article class="products__card">
+            <article class="products__card delicacies">
               <div class="products__shape">
                 <img
                   src="assets/img/delicacies3.png"
@@ -234,7 +234,7 @@
             </article>
 
             <!--==================  Coffee   ===================-->
-            <article class="products__card">
+            <article class="products__card coffee">
               <div class="products__shape">
                 <img
                   src="assets/img/coffee1.png"
@@ -253,7 +253,7 @@
               </div>
             </article>
 
-            <article class="products__card">
+            <article class="products__card coffee">
               <div class="products__shape">
                 <img
                   src="assets/img/coffee2.png"
@@ -272,7 +272,7 @@
               </div>
             </article>
 
-            <article class="products__card">
+            <article class="products__card coffee">
               <div class="products__shape">
                 <img
                   src="assets/img/coffee3.png"
@@ -291,7 +291,7 @@
               </div>
             </article>
 
-            <article class="products__card">
+            <article class="products__card coffee">
               <div class="products__shape">
                 <img
                   src="assets/img/coffee4.png"
@@ -312,7 +312,7 @@
 
             <!--==================   Cake    ===================-->
 
-            <article class="products__card">
+            <article class="products__card cake">
               <div class="products__shape">
                 <img src="assets/img/cake1.png" alt="" class="products__img" />
               </div>
@@ -327,7 +327,7 @@
               </div>
             </article>
 
-            <article class="products__card">
+            <article class="products__card cake">
               <div class="products__shape">
                 <img src="assets/img/cake2.png" alt="" class="products__img" />
               </div>
@@ -342,7 +342,7 @@
               </div>
             </article>
 
-            <article class="products__card">
+            <article class="products__card cake">
               <div class="products__shape">
                 <img src="assets/img/cake3.png" alt="" class="products__img" />
               </div>
@@ -357,7 +357,7 @@
               </div>
             </article>
 
-            <article class="products__card">
+            <article class="products__card cake">
               <div class="products__shape">
                 <img src="assets/img/cake4.png" alt="" class="products__img" />
               </div>
@@ -391,7 +391,7 @@
     <!--========== SCROLL UP ==========-->
 
     <!--=============== MIXITUP FILTER ===============-->
-    <script src=""></script>
+    <script src="assets/js/mixitup.min.js"></script>
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
